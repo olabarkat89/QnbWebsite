@@ -1,0 +1,289 @@
+<section>
+  <div class="container-fluid m-0 p-0">
+    <div class="row p-0">
+      <div class="col-12 p-0">
+        <img class="img-style" src="../../../assets/img/Mask Group 12.png" alt="" srcset="" />
+      </div>
+    </div>
+  </div>
+  <div class="container How-e-voucher-works">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="title py-4 ">
+          <span><img class="icon" [class.dir]="dir == true"
+              src="../../../assets/img/Screenshot 2023-01-10 at 1.18.21 AM.png" alt="" /></span>
+          {{"partnersList.HowEVoucher" | translate}}
+        </h2>
+      </div>
+    </div>
+  </div>
+  <div class="container How-e-voucher-works-slider">
+    <div class="row">
+      <div class="col-md-12 ">
+        <div class="slider-container " style="width: 100%;">
+          <swiper [slidesPerView]="5" [spaceBetween]="0" [navigation]="true" [scrollbar]="{ draggable: true }"
+            [breakpoints]="{
+              '1400': {
+                slidesPerView: 5,
+                spaceBetween: 0,
+                slidesPerGroup: 1
+              },
+              '1200': {
+                slidesPerView: 5,
+                spaceBetween: 0,
+                slidesPerGroup: 1
+              },
+
+              '992': {
+                slidesPerView: 4,
+                spaceBetween: 0,
+                slidesPerGroup: 1
+              },
+              '768': {
+                slidesPerView: 2,
+                spaceBetween: 0,
+                slidesPerGroup: 1
+              },
+
+              '576': {
+                slidesPerView: 1,
+                spaceBetween: 0,
+                slidesPerGroup: 1
+              },
+
+              '0': {
+                slidesPerView: 1,
+                spaceBetween: 0,
+                slidesPerGroup: 1
+              }
+            }">
+            <ng-template swiperSlide>
+              <div class=" ">
+                <div class="d-flex justify-content-center justify-content-center">
+                  <img src="../../../assets/img/Group 17808.svg" alt="" srcset="" class=" first-img" />
+                  <img src="../../../assets/img/Line 1.svg" alt="" srcset="" class="img-line" />
+                </div>
+
+                <div>
+                  <p class="img-text">{{"partnersList.firststep"  | translate}}</p>
+                </div>
+              </div>
+            </ng-template>
+            <ng-template swiperSlide>
+              <div class=" ">
+                <div class="d-flex justify-content-center">
+                  <img src="../../../assets/img/Group 17807.svg" alt="" srcset="" class="img-style" />
+                  <img src="../../../assets/img/Line 1.svg" alt="" srcset="" class="img-line" />
+                </div>
+
+                <div>
+                  <p class="img-text">{{"partnersList.secondstep"  | translate}}
+                 </p>
+                </div>
+              </div>
+            </ng-template>
+            <ng-template swiperSlide>
+              <div class=" ">
+                <div class="d-flex justify-content-center">
+                  <img src="../../../assets/img/Group 17806.svg" alt="" srcset="" class="img-style" />
+                  <img src="../../../assets/img/Line 1.svg" alt="" srcset="" class="img-line" />
+                </div>
+
+                <div>
+                  <p class="img-text">{{"partnersList.thirdstep"  | translate}}</p>
+                </div>
+              </div>
+            </ng-template>
+            <ng-template swiperSlide>
+              <div class=" ">
+                <div class="d-flex justify-content-center">
+                  <img src="../../../assets/img/Group 17805.svg" alt="" srcset="" class="img-style" />
+                  <img src="../../../assets/img/Line 1.svg" alt="" srcset="" class="img-line" />
+                </div>
+
+                <div>
+                  <p class="img-text">{{"partnersList.forthstep"  | translate}}</p>
+                </div>
+              </div>
+            </ng-template>
+            <ng-template swiperSlide>
+              <div class=" ">
+                <div class="d-flex justify-content-center">
+                  <img src="../../../assets/img/Group 17804.svg" alt="" srcset="" class="  list-img" />
+
+                </div>
+
+                <div>
+                  <p class="img-text">{{"partnersList.fifthstep"  | translate}} </p>
+                </div>
+              </div>
+            </ng-template>
+
+          </swiper>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container Partners-List">
+    <div class="row">
+      <div class="col-md-12">
+        <div>
+          <h2 class="title py-3 mb-0">
+            <span><img class="icon" [class.dir]="dir == true"
+                src="../../../assets/img/Screenshot 2023-01-10 at 1.18.21 AM.png" alt="" /></span>
+            {{"header.PartnersList" | translate}}
+          </h2>
+          <div style="width: 100%">
+            <swiper [slidesPerView]="6" [spaceBetween]="0" [navigation]="true" [scrollbar]="{ draggable: true }"
+              [breakpoints]="{
+                '1400': {
+                  slidesPerView: 6,
+                  spaceBetween: 0,
+                  slidesPerGroup: 1
+                },
+                '1200': {
+                  slidesPerView: 6,
+                  spaceBetween: 0,
+                  slidesPerGroup: 1
+                },
+
+                '992': {
+                  slidesPerView: 4,
+                  spaceBetween: 0,
+                  slidesPerGroup: 1
+                },
+                '768': {
+                  slidesPerView: 4,
+                  spaceBetween: 0,
+                  slidesPerGroup: 1
+                },
+
+                '576': {
+                  slidesPerView: 3,
+                  spaceBetween: 0,
+                  slidesPerGroup: 1
+                },
+
+                '0': {
+                  slidesPerView: 3,
+                  spaceBetween: 0,
+                  slidesPerGroup: 1
+                }
+              }">
+              <ng-template swiperSlide><button class="btn All-button">{{"partnersList.all" | translate}}</button></ng-template>
+              <ng-template swiperSlide><button class="btn category-button">
+                  {{"partnersList.Fashion" | translate}}
+                </button></ng-template>
+              <ng-template swiperSlide><button class="btn category-button">
+                {{"partnersList.FoodBeverage" | translate}}
+              </button></ng-template>
+              <ng-template swiperSlide><button class="btn category-button">
+                  
+                  {{"partnersList.Grocery" | translate}}
+
+                </button></ng-template>
+              <ng-template swiperSlide><button class="btn category-button">
+                {{"partnersList.Electronics" | translate}}
+              </button></ng-template>
+              <ng-template swiperSlide><button class="btn category-button">
+                {{"partnersListHealthBeauty" | translate}}
+                </button></ng-template>
+              <ng-template swiperSlide><button class="btn category-button">
+                {{"partnersList.Grocery" | translate}}
+
+                </button></ng-template>
+            </swiper>
+          </div>
+
+          <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-2">
+            <div class="col-6 col-md-6 col-lg-3">
+              <div class="card">
+                <div class="img-container">
+                  <a routerLink="/Partners-detalis" class="w-100 text-center">
+                    <img src="../../../assets/img/image 66.svg" alt="" />
+                  </a>
+                </div>
+                <p class="partners-card-title">Ravin</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3">
+              <div class="card">
+                <div class="img-container">
+                  <a routerLink="/Partners-detalis" class="w-100 text-center">
+                    <img src="../../../assets/img/image 66.svg" alt="" />
+                  </a>
+                </div>
+                <p class="partners-card-title">Ravin</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3">
+              <div class="card">
+                <div class="img-container">
+                  <a routerLink="/Partners-detalis" class="w-100 text-center">
+                    <img src="../../../assets/img/image 66.svg" alt="" />
+                  </a>
+                </div>
+                <p class="partners-card-title">Ravin</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3">
+              <div class="card">
+                <div class="img-container">
+                  <a routerLink="/Partners-detalis" class="w-100 text-center">
+                    <img src="../../../assets/img/image 66.svg" alt="" />
+                  </a>
+                </div>
+                <p class="partners-card-title">Ravin</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3">
+              <div class="card">
+                <div class="img-container">
+                  <a routerLink="/Partners-detalis" class="w-100 text-center">
+                    <img src="../../../assets/img/image 66.svg" alt="" />
+                  </a>
+                </div>
+                <p class="partners-card-title">Ravin</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3">
+              <div class="card">
+                <div class="img-container">
+                  <a routerLink="/Partners-detalis" class="w-100 text-center">
+                    <img src="../../../assets/img/image 66.svg" alt="" />
+                  </a>
+                </div>
+                <p class="partners-card-title">Ravin</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3">
+              <div class="card">
+                <div class="img-container">
+                  <a routerLink="/Partners-detalis" class="w-100 text-center">
+                    <img src="../../../assets/img/image 66.svg" alt="" />
+                  </a>
+                </div>
+                <p class="partners-card-title">Ravin</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3">
+              <div class="card">
+                <div class="img-container">
+                  <a routerLink="/Partners-detalis" class="w-100 text-center">
+                    <img src="../../../assets/img/image 66.svg" alt="" />
+                  </a>
+                </div>
+                <p class="partners-card-title">Ravin</p>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-lg btn-load-more px-5 h-75">
+              {{"partnersList.LoadMore" | translate}}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

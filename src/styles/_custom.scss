@@ -1,0 +1,67 @@
+html {
+  font-size: 12px;
+}
+
+// Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) {
+//   html {
+//     font-size: 12px;
+//   }
+// }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  html {
+    font-size: 16px;
+  }
+}
+body {
+  @include rtl("background-color", "$info");
+  // font-family: $font-en;
+}
+p {
+  margin-bottom: 0 !important;
+}
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   margin: 0 !important;
+// }
+/// space bttwen icon 
+.active.ng-star-inserted.ng-tns-c32-1.ng-trigger.ng-trigger-autoHeight.owl-item {
+  width: 75px !important;
+  cursor: pointer !important;
+
+}
+.accordion-button::after{
+  //color: red !important;
+  // margin-left: auto;
+  // margin-right: 0;
+    @include rtl(" margin-left", 0 !important);
+    @include rtl(" margin-right", auto !important);
+  
+  }

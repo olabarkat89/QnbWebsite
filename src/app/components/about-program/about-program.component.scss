@@ -1,0 +1,240 @@
+@import "../../../styles/styles.scss";
+
+.dir{
+  transform: rotateY(180deg);
+
+}
+
+.img-container {
+  background-image: url("../../../assets/img/Mask\ Group\ 14.png");
+  background-size: 100% 100%;
+  height: 60vh;
+  width: 100%;
+}
+.title {
+  letter-spacing: 0px;
+  opacity: 1;
+  height: 100%;
+  font-weight: 700;
+  color: $background-body-color;
+  font-size: 2.5rem;
+  margin-inline-start: 5rem;
+text-align: left;
+padding: 3rem 2rem 2rem 2rem;
+position: relative;
+top: 25%;
+}
+
+.title-containter {
+  .title-of-descrption {
+    font-size: $title;
+    font-weight: 700;
+    color: $text-color;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0px;
+  }
+  span {
+    margin-inline-end: 0;
+  }
+  .icon {
+    margin-top: 2rem;
+    width: 1rem;
+    margin-inline-end: 0.4rem;
+  }
+}
+.description {
+  border: 2px solid #d1d1d1;
+  border-radius: 16px;
+  opacity: 1;
+  .description-text {
+    font-size: 0.9rem;
+    color: #434343;
+    padding: 1.2rem;
+    // padding-left:1.2rem ;
+    // padding-right:1.2rem ;
+  }
+}
+
+.card-visa {
+  margin-top: 2rem;
+
+  .card {
+    box-shadow: 0px 0px 20px #8700521d;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: start;
+    border: none !important;
+  }
+  .title-card {
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: $text-color-two;
+    opacity: 1;
+  }
+
+  .icon {
+    margin-top: 0 !important;
+    width: 0.8rem;
+    margin-inline-end: 0.4rem;
+  }
+
+  .card-text {
+    color: $text-color;
+    font-weight: 750;
+    font-size: 0.8rem;
+    margin-inline-start: 1.2rem;
+    .card-span {
+      font-weight: 400;
+    }
+  }
+}
+.list-group-item{
+  padding: 1rem;
+  width: 135px !important;
+}
+.description-text-of-list {
+  padding-left: 0.8rem !important;
+  padding-right: 0.8rem !important;
+  padding-top: 0.7rem !important;
+  padding-bottom: 0.3rem !important;
+  font-size: 0.9rem;
+  color: #434343;
+
+  li {
+    margin-inline-start: 1rem;
+  }
+  ::marker {
+    font-size: 1.3rem;
+  }
+}
+
+.description-Redemption {
+  .title-Redemption {
+    font-size: $title;
+    font-weight: 700;
+    color: $text-color;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0px;
+    h2{
+      font-size: 1.7rem;
+      font-weight: 700;
+    }
+
+    span {
+      margin-inline-end: 0;
+    }
+    .icon {
+      margin-top: 0rem;
+      width: 1rem;
+      margin-inline-end: 0.4rem;
+    }
+  }
+  
+  .Redemption-description {
+    border: 2px solid #d1d1d1;
+    border-radius: 16px;
+    opacity: 1;
+    .Redemption-text-of-list {
+      padding-left: 3rem !important;
+      padding-right: 3rem !important;
+      padding-top: 1rem !important;
+      padding-bottom: 1rem !important;
+      font-size: 0.9rem;
+      color: #434343;
+
+     
+      li {
+        margin-top: 0.5rem;
+        .group-title {
+          background-color: $table-color;
+          border-radius: 3px;
+          font-size: 0.65rem;
+          font-weight: 800;
+          color: #870052;
+          letter-spacing: 0px;
+          padding-top: 0.6rem !important;
+          padding-bottom: 0.6rem !important;
+          padding-left: 2rem !important;
+          padding-right: 2rem !important;
+          text-align: center;
+          line-height: 0.8rem;
+
+        }
+        .box-size {
+          padding-top: 0.2rem !important;
+          padding-bottom: 0.2rem !important;
+          line-height: 0.8rem;
+          color: #870052;
+          padding-left: 1.4rem !important;
+          padding-right: 1.4rem !important;
+        }
+
+        .light {
+          text-align: center;
+          border-radius: 3px;
+          padding-top: 0.6rem !important;
+          padding-bottom: 0.6rem !important;
+          background-color: $background-cards-color;
+          border: 1px solid $background-cards-color;
+          font-weight: 800;
+          font-size: 0.65rem;
+          margin-inline-start: 0.5rem;
+          color: $text-color;
+        }
+        .dark {
+          text-align: center;
+          background-color: $background-cards-color-dark;
+          border: 1px solid $background-cards-color-dark;
+          font-weight: 800;
+          font-size: 0.65rem;
+          border-radius: 3px;
+          padding-top: 0.6rem !important;
+          padding-bottom: 0.6rem !important;
+          margin-inline-start: 0.5rem;
+
+          color: $text-color;
+
+        }
+      }
+   
+      ::marker {
+        font-size: 1.3rem;
+      }
+    }
+  }
+
+}
+
+.Terms-continer{
+  margin-top: 4rem;
+  .Terms{
+    color: #870052;
+    font-weight: 650;
+  }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .flex-descrption {
+    display: flex;
+  }
+  ul{
+   margin-inline-start: 0.5rem;
+  }
+  .box-size {
+    padding-top: 0.2rem !important;
+    padding-bottom: 0.1rem !important;
+    line-height: 9px !important;
+
+  }
+  li{
+    margin-inline-start:0 !important ;
+  }
+}
+
+
+
+

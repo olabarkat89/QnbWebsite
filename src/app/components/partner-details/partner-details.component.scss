@@ -1,0 +1,275 @@
+@import "../../../styles/styles.scss";
+
+.back-img {
+  background-image: url("../../../assets/img/MaskGroup13.png");
+  background-size: cover;
+  height: 60vh;
+ 
+
+  .titles {
+    margin-top: 1rem;
+    color: $background-body-color;
+    font-weight: $fw;
+    font-size: 0.8rem;
+    margin-inline-start: 2rem;
+
+    // font-size: ;
+    .branchs {
+      color: #434343;
+      font-weight: $fw;
+
+      margin-inline-start: 0.3rem;
+    }
+  }
+}
+
+.How-e-voucher-works-slider {
+  background-image: url("../../../assets/img/Rectangle\ 2091\ \(1\).svg");
+  border-radius: 27px;
+  width: 100%;
+  background-size: 100% 110%;
+  .slider-container {
+    margin-inline-start: 5rem;
+  }
+  .img-style {
+    width: 7rem;
+    margin-inline-start: 4rem;
+    margin-inline-end: 0.5rem;
+  }
+  .img-text {
+    width: 100%;
+    text-align: center;
+    color: $text-color;
+    font-weight: 600;
+    font-size: 0.7rem;
+  }
+  .img-line {
+    margin-inline-start: 0.3rem;
+    margin-inline-end: 1.3rem;
+    width: 3rem;
+  }
+  .first-img {
+    margin-inline-start: 4rem;
+    margin-inline-end: 0.5rem;
+
+    width: 7rem;
+  }
+  .list-img {
+    margin-inline-end: 0rem;
+    width: 7rem;
+  }
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    font-family: swiper-icons;
+    font-size: 1rem !important;
+    text-transform: none !important;
+    border: 0px solid $hover-color !important;
+    background-color:#061A5526;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+    padding: 0.7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 50%;
+  }
+}
+
+.img-container {
+  height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 1rem;
+  .img-style {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 1.2rem;
+  }
+}
+
+.title {
+  font-size: $title;
+  font-weight: 700;
+  color: $text-color;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0px;
+
+  .icon {
+    @extend %icon;
+  }
+}
+.description {
+  border: 2px solid #d1d1d1;
+  border-radius: 27px;
+  opacity: 1;
+  .description-text {
+    font-size: 0.9rem;
+    color: #434343;
+    padding: 1.2rem;
+    // padding-left:1.2rem ;
+    // padding-right:1.2rem ;
+  }
+}
+
+///accordion
+
+.accordion-item{
+
+  border: 0;
+  margin-top: 0.5rem;
+}
+.accordion {
+  color: $text;
+
+}
+
+.accordion-button {
+  background-color: $background-cards-color;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: $text;
+  &:hover {
+    background-color: $hover-color;
+    color: $background-cards-color;
+  }
+  &:focus {
+    background-color: $hover-color;
+    color: $background-cards-color;
+  }
+  .bi {
+    margin-inline-end: 1rem;
+    color:$hover-color;
+    &:hover {
+      margin-inline-end: 1rem;
+      color:white !important;
+     
+    }
+   &:focus{
+      margin-inline-end: 1rem;
+      color:white !important;
+
+    }
+  }
+
+}
+.side-border{
+  border: 2px solid #061A55;
+  border-radius: 10px;
+  margin-inline-end: 1rem;
+}
+.address {
+  color: #434343;
+  font-weight: 400;
+  letter-spacing: 0px;
+  font-size: 0.8rem;
+}
+.button-active {
+  border: 1.5px solid $text-color;
+  border-radius: 47px;
+  padding: 0.5rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+
+  .img-style {
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-inline-end: 0.3rem;
+
+  }
+  .button-text {
+    color: $text-color;
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+}
+
+//partners list
+.card {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .img-container {
+    margin-top: 2rem !important;
+    margin-inline-start: 1rem;
+    background-color: $background-cards-color;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    img {
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+      width: 70%;
+    }
+  }
+
+  .partners-card-title {
+    margin-top: 1rem;
+    color: #313131;
+    font-size: 1rem;
+    font-weight: $fw;
+  }
+}
+
+.swiper-container {
+  width: 100%;
+}
+.swiper-wrapper {
+  width: 50%;
+}
+.swiper-slide {
+  text-align: center;
+  width: auto;
+  // max-width: 100% !important;
+}
+
+.my-gallery figure {
+  margin: 0px;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: $hover-color;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .How-e-voucher-works-slider {
+    background-image: url("../../../assets/img/Rectangle\ 2091\ \(1\).svg");
+    border-radius: 27px;
+    // width: 100%;
+    background-size: cover;
+    .slider-container {
+      margin-inline-start: 0rem;
+    }
+    .img-style {
+      width: 7rem;
+      margin-inline-start: 0rem;
+      margin-inline-end: 0.5rem;
+    }
+    .img-text {
+      width: 100%;
+      text-align: center;
+      color: $text-color;
+      font-weight: 600;
+      font-size: 0.7rem;
+    }
+    .img-line {
+      display: none;
+    }
+    .first-img {
+      margin-inline-start: 0rem;
+      margin-inline-end: 0.5rem;
+
+      width: 7rem;
+    }
+    .list-img {
+      margin-inline-start: 0rem;
+      width: 7rem;
+    }
+  }
+}

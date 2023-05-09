@@ -1,0 +1,72 @@
+<nav class="navbar navbar-expand-sm bg-light">
+  <div class="container-fluid p-0">
+    <a routerLink="/Partners">
+      <img class="img-style" src="assets/img/Group17803.png" alt="" srcset="" />
+    </a>
+
+    <p-sidebar
+      [(visible)]="visibleSidebar2"
+      position="right"
+      [baseZIndex]="10000"
+    >
+      <button class="btn" routerLink="/Partners" routerLinkActive="active-link">{{"header.PartnersList" | translate}}</button>
+      <hr />
+      <button class="btn"  routerLink="/about-program" routerLinkActive="active-link">{{"header.AboutQNB" | translate}}</button>
+      <hr />
+      <button class="btn"   routerLink="/FAQs" routerLinkActive="active-link">{{"header.FAQs" | translate}}</button>
+      <hr />
+      <button class="btn"   routerLink="/terms" routerLinkActive="active-link">{{"header.TermsConditions" | translate}}</button>
+    </p-sidebar>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav title-dir mb-lg-0">
+        <li class="nav-item Partners-list-li">
+          <a
+            routerLink="/Partners"
+            class="nav-link header-title"
+            aria-current="page"
+            routerLinkActive="active-link"
+            >{{"header.PartnersList" | translate}} </a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link header-title"
+            aria-current="page"
+            routerLink="/about-program"
+            routerLinkActive="active-link"
+            >{{"header.AboutQNB" | translate}}</a
+          >
+          <div class="hover-border"></div>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link header-title"
+            aria-current="page"
+            routerLink="/FAQs"
+            routerLinkActive="active-link"
+            >{{"header.FAQs" | translate}}</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link header-title"
+            aria-current="page"
+            routerLink="/terms"
+            routerLinkActive="active-link"
+            >{{"header.TermsConditions" | translate}}</a
+          >
+        </li>
+      </ul>
+    </div>
+    <p-button
+      type="button"
+      class="mr-2"
+      (click)="visibleSidebar2 = true"
+      icon="pi pi-arrow-left"
+      styleClass="sidebar-style"
+    ></p-button>
+  </div>
+</nav>
+
+<button (click)="changeCurrentLang('ar')">Arabic</button>
+<button (click)="changeCurrentLang('en')">English</button>

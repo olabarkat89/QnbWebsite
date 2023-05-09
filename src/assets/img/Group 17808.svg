@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="218" viewBox="0 0 190 218">
+  <g id="Group_17808" data-name="Group 17808" transform="translate(-236 -778)">
+    <g id="Ellipse_46" data-name="Ellipse 46" transform="translate(236 778)" fill="none" stroke="#870052" stroke-width="5">
+      <circle cx="95" cy="95" r="95" stroke="none"/>
+      <circle cx="95" cy="95" r="92.5" fill="none"/>
+    </g>
+    <circle id="Ellipse_47" data-name="Ellipse 47" cx="36" cy="36" r="36" transform="translate(295 924)" fill="#061a55"/>
+    <text id="_1" data-name="1" transform="translate(331 974)" fill="#fff" font-size="35" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-6" y="0">1</tspan></text>
+    <path id="log-in" d="M749.453,419.174v41.356c0,8.333-4.59,12.924-12.924,12.924H715.852c-8.337,0-12.924-4.591-12.924-12.924v-3.446a2.585,2.585,0,0,1,5.17,0v3.446c0,5.435,2.319,7.754,7.754,7.754h20.678c5.435,0,7.754-2.319,7.754-7.754V419.174c0-5.435-2.319-7.754-7.754-7.754H715.852c-5.435,0-7.754,2.319-7.754,7.754v3.446a2.585,2.585,0,0,1-5.17,0v-3.446c0-8.333,4.587-12.924,12.924-12.924h20.678C744.863,406.25,749.453,410.84,749.453,419.174Zm-31.982,29.19a2.583,2.583,0,1,0,3.653,3.653l10.339-10.336a2.66,2.66,0,0,0,.558-.841,2.587,2.587,0,0,0,0-1.978,2.661,2.661,0,0,0-.558-.841l-10.339-10.335a2.583,2.583,0,1,0-3.653,3.653l5.924,5.928H684.835a2.585,2.585,0,1,0,0,5.169H723.4Z" transform="translate(-395.102 426.648)" fill="#870052"/>
+  </g>
+</svg>

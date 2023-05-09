@@ -1,0 +1,55 @@
+//fonts========================================
+$title: 1.5rem;
+$title-accordion: 38px;
+$text-accordion: 28px;
+$text-btn: 0.9rem;
+$fw: bold;
+
+//ar
+
+//font-size
+
+//Variables===================================================
+//=======colors===========
+
+//main colors
+$background-body-color: #ffffff;
+$background-cards-color: #f6f6f6;
+$background-cards-color2:#E7E7E7;
+$background-cards-color-dark: #ebebeb;
+
+$hover-color: #870052;
+$text-color-two: #870052;
+$border:#D1D1D1;
+$title-color: #0b1a52;
+$text-color: #061a55;
+$text: #000000;
+$partner-title-color: #313131;
+$table-color: #87005233;
+$color-footer:#272727;
+
+%title {
+  font-size: $title;
+  color: #061a55;
+  font-weight: $fw;
+  font-size: 0.8rem;
+}
+%icon {
+  width: 1rem;
+  height: 1.3rem;
+  margin-bottom: 3px;
+}
+
+//// bootstrap
+
+$accordion-icon-color: #870052;
+$accordion-button-color: #061a55;
+$accordion-icon-active-color: #870052;
+$accordion-button-active-color: #061a55;
+$accordion-button-active-bg: #ffffff;
+$accordion-button-focus-border-color:#f6f6f6;
+$accordion-button-focus-box-shadow: #f6f6f6;
+// .accordion-button::after{
+//     margin-left: 0 !important;
+//     margin-right: auto !important;
+// }

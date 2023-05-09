@@ -1,0 +1,100 @@
+@import "../../../styles/styles.scss";
+@import "../../../styles/mixins";
+
+.dir {
+  transform: rotateY(180deg);
+}
+.back-img {
+  // background-image: url("../../../assets/img/MaskGroup13.png");
+  background-image: url("../../../assets/img/MaskGroup13.png");
+  background-size: 100% 100%;
+  height: 30vh;
+  width: 100%;
+
+  .title-container {
+    .title {
+      display: flex;
+      justify-content: center;
+      margin-top: 5rem;
+      color: $background-body-color;
+      font-weight: $fw;
+    }
+  }
+}
+
+.icon {
+  @extend %icon;
+  margin-inline-end: 0.5rem;
+}
+
+///accordion
+
+.button .accordion-button {
+  //   color: $text-color !important;
+  // color: #eb0a0a !important;
+  
+  border: 0 !important;
+  border-radius: 27px !important;
+}
+.accordion {
+  color: $text;
+}
+.accordion-item {
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  margin-top: 1rem;
+  border: solid 1px $border !important;
+  border-radius: 10px;
+  padding: 0.2rem;
+}
+
+.accordion-text {
+  color: #434343;
+  font-size: 0.9rem;
+
+  // border-left: $border 1px solid;
+  // border-right: $border 1px solid;
+  // border-bottom: $border 1px solid;
+  // border-radius: 20px;
+}
+
+.accordion-button {
+  border-radius: 87px !important;
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: $text-color;
+  border: #d1d1d1 !important;
+  box-shadow: none !important;
+  background-color: none !important;
+  .accordion-button::after {
+    // margin-right: auto;
+    // margin-left: 0;
+    // box-shadow: none;
+  }
+  .bi {
+    margin-inline-end: 1rem;
+  }
+}
+
+.address {
+  color: #434343;
+  font-weight: 550;
+  letter-spacing: 0px;
+  font-size: 0.8rem;
+}
+
+.button-active {
+  border: 2px solid $text-color;
+  border-radius: 47px;
+  padding: 0.5rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+
+  .img-style {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+  .button-text {
+    color: $text-color;
+  }
+}

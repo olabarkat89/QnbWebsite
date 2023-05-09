@@ -1,0 +1,61 @@
+@import "../../../styles/styles.scss";
+
+.img-style {
+  min-width: 10rem;
+  max-width: 15.5rem;
+  height: 3rem;
+  margin-inline-end: 1.2rem;
+  padding: 0;
+  direction: ltr;
+}
+
+.header-title {
+  font-size: 0.7rem;
+  color: $text-color;
+  font-weight: bold;
+  letter-spacing: 0px;
+  opacity: 1;
+  margin-top: 0.2rem;
+  margin-inline-start: 0.5rem;
+  // margin-inline-end: 1rem;
+
+  border: 2px solid transparent;
+
+  &:hover {
+    color: $hover-color;
+    border-bottom: 2px solid $hover-color;
+  }
+}
+.active-link{
+  color: $hover-color;
+  border-bottom: 2px solid $hover-color;
+}
+.Partners-list-li {
+  margin-inline-start: 1rem;
+}
+select {
+  border: none;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: $text-color;
+}
+
+p-button.p-element.mr-2 {
+  display: none;
+  margin-inline-end: 1rem;
+}
+.btn {
+  color: $text-color;
+  font-size: 0.9rem;
+  font-weight: 650;
+}
+hr {
+  color: #d8d8d8;
+border: 1.5px solid #d8d8d8;
+}
+@media only screen and (max-width: 600px) {
+  p-button.p-element.mr-2 {
+    display: flex;
+    margin-inline-end: 1rem;
+  }
+}

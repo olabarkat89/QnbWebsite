@@ -1,0 +1,19 @@
+@import "../../../styles/styles.scss";
+
+
+.container-fluid{
+    background-color: $background-cards-color2;
+ margin-top: 5rem;
+}
+.text-container{
+   
+    height: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    p{
+        text-align: center;
+font-size:0.9rem;
+
+color: $color-footer;
+    }
+}
